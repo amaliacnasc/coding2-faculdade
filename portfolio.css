@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    padding: 50px;
+    background-color: #201AD9;
+    border: 1px solid #F2F2F2;
+
+}
+body{
+    background-color: #fbfbfb;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0px;
+}
+.nav{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+   font-family: "Shadows Into Light", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+#gato{
+    width: 100px;
+    height: 100px;
+    padding-left: 400px;
+}
+a.nav{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: grid;
+    align-content: center;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h1{
+ font-family: "Shadows Into Light", sans-serif;
+    color:#F2F2F2;
+    font-size: 56px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.quemSouEu{
+    background-color: #201AD9;
+    padding: 20px 0px;
+    
+}
+p.quemSouEu{
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+    color:#F2F2F2 ;   
+    text-align: center;
+    padding-bottom: 50px;
+}
+.listaeimagem{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: self-start;
+    justify-content: center;
+}
+
+.listaeimagem p{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 40px;
+    color: #F2F2F2;
+
+
+}
+li{
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+    color:#F2F2F2 ;
+    list-style-position: inside;
+    padding-left: 50px;
+}
+.img1{
+    width: 200px;
+    height: 300px;
+    border: 2px solid;
+    border: #8286D9;
+    border-radius: 8px;
+}
+.formacaoAcademica{
+    
+    background-color: #423DD9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h2{
+    
+    font-family: "kanit", sans-serif;
+    color:#F2F2F2;
+    font-size: 42px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+li.formacao{
+    
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+    background-color: #423DD9;
+    color:#F2F2F2;
+    list-style-position: inside;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.skills{
+    background-color:#6E6AD9;
+    padding: 50px 0px;
+}
+
+.idiomas, .comunicacao, .gestao, .csharp, .html, .css, .bancodedados{
+    display: grid;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    justify-content: center;
+}
+.idiomas h2, .comunicacao h2, .gestao h2, .csharp h2, .html h2, .css h2, .bancodedados h2{
+    font-size: 20px;
+    font-family: "kanit",sans-serif;
+}
+.idiomas p, .comunicacao p, .gestao p, .csharp p, .html p, .css p, .bancodedados p{
+    font-size: 16px;
+    font-family: "MontSerrat",sans-serif;
+    color: #F2F2F2;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.habilidades1{
+    background-color: #6E6AD9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.habilidades2{
+    padding-top: 50px;
+    background-color:#6E6AD9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+
+.habilidades1 img, .habilidades2 img{
+    width: 60px;
+    height: 60px;
+   
+
+}
+
+#imgidiomas, #imgbd, #imgcsharp, #imgtempo, #imghtml, #imgcss, #imgcomunicacao{
+    place-self: center;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #423DD9;
+    padding: 50px;
+}
+ 
+a.footer{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Shadows Into Light";
+}
